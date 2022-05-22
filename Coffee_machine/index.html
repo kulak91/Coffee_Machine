@@ -7,18 +7,17 @@
   
 </head>
 <body>
- 
     <!-- Menu Ingrediends-->
 
     
         <div class="menu-list">
             
             <ul>
-            <li><img src="./images/water.svg"><span id="menu-item-water">0</span> </li>
-            <li><img src="./images/milk.svg"><span id="menu-item-milk">0</span> </li>
-            <li><img src="./images/boobaloo_Coffee_Bean.svg"><span id="menu-item-beans">0</span></li>
-            <li><img src="./images/cup.svg"><span id="menu-item-cups">0</span></li>
-            <li><img src="./images/cash.svg"><span id="menu-item-cash">0</span></li>
+            <li class="pressed"><img src="./images/water.svg"><span id="menu-item-water">0</span> </li>
+            <li class="pressed"><img src="./images/milk.svg"><span id="menu-item-milk">0</span> </li>
+            <li class="pressed"><img src="./images/boobaloo_Coffee_Bean.svg"><span id="menu-item-beans">0</span></li>
+            <li class="pressed"><img src="./images/cup.svg"><span id="menu-item-cups">0</span></li>
+            <li class="pressed"><img src="./images/cash.svg"><span id="menu-item-cash">0</span></li>
             </ul>
         </div>
     
@@ -40,15 +39,15 @@
 
 <div class="ingredients">
   
- <!-- <button id="create-me-something" onclick="poorMachine.creation()">Ingredients left</button> -->
- <div class="recipes-block"><div class='recipes'>
-      <button class="create-me button-30" onclick="poorMachine.recipe(`Espresso`)">Espresso</button>
-      <button class="create-me button-30" onclick="poorMachine.recipe(`Latte`)">Latte</button>
-      <button class="create-me button-30" onclick="poorMachine.recipe(`Cappuccino`)">Cappuccino</button>
-      
-</div>
-<div class="bank" id="bank1"></div>
-</div>
+     <!-- <button id="create-me-something" onclick="poorMachine.creation()">Ingredients left</button> -->
+    <div class="recipes-block">
+        <div class='recipes'>
+          <button class="create-me button-30" onclick="poorMachine.recipe(`Espresso`)">Espresso</button>
+          <button class="create-me button-30" onclick="poorMachine.recipe(`Latte`)">Latte</button>
+          <button class="create-me button-30" onclick="poorMachine.recipe(`Cappuccino`)">Cappuccino</button>      
+        </div>
+        <div class="bank" id="bank1"></div>
+    </div>
 </div>
 <!-- Prompt Dialogue-->
 <div id="dialogoverlay"></div>
